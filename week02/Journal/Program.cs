@@ -1,3 +1,12 @@
+/*
+  CREATIVITY AND EXCEEDING REQUIREMENTS:
+  To exceed the requirements, I added a 'Mood' field to each journal entry.
+  - I modified the Entry class to include a _mood variable.
+  - I updated the Program menu to ask the user how they are feeling before writing.
+  - I updated the Save and Load methods in the Journal class to ensure the mood 
+    data is properly stored and retrieved from the text file.
+*/
+
 using System;
 
 class Program
