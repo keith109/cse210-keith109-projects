@@ -21,12 +21,11 @@ public class Word
 
     public bool IsHidden()
     {
-        return _isHidden; // Cambiado de 'false' a la variable real
+        return _isHidden;
     }
 
     public string GetDisplayText()
     {
-        // Si está escondida, devuelve guiones. Si no, devuelve el texto.
         if (_isHidden)
         {
             return new string('_', _text.Length);
