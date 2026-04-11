@@ -6,7 +6,7 @@ public class EternalGoal : Goal
 
     public override void RecordEvent()
     {
-        // No cambia estado, solo se registra
+        
     }
 
     public override bool IsComplete() => false;
