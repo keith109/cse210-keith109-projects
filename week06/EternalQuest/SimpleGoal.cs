@@ -9,7 +9,6 @@ public class SimpleGoal : Goal
         _isComplete = false;
     }
 
-    // Usado para cargar desde archivo
     public SimpleGoal(string name, string description, string points, bool isComplete) : base(name, description, points)
     {
         _isComplete = isComplete;

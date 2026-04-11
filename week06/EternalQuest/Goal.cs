@@ -18,7 +18,6 @@ public abstract class Goal
     
     public virtual string GetDetailsString()
     {
-        // El símbolo [X] o [ ] depende de si está completa
         string statusSymbol = IsComplete() ? "[X]" : "[ ]";
         return $"{statusSymbol} {_shortName} ({_description})";
     }
